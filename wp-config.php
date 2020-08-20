@@ -78,6 +78,7 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+set_time_limit(300);
 
 /* That's all, stop editing! Happy publishing. */
 
